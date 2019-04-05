@@ -102,7 +102,7 @@ func flowExchange(){
 			fmt.Printf("已成功向号码%s充值30M流量，3个月内有效。\n",phone)
 			runmain()
 		}else {
-			fmt.Printf("未知错误，请稍后再试。\n", getRes)
+			fmt.Printf("未知错误，请稍后再试。\n", string(getRes))
 			runmain()
 		}
 	}
